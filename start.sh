@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Declared-pen/File-Share-Bot/File-Share-Bot
+  git clone https://github.com/Declared-Pen/File-Share-Bot/File-Share-Bot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /File-Share-Bot
